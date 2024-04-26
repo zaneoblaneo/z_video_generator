@@ -1,0 +1,13 @@
+[package]
+name = "z_video_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zrgb4_mpeg2 = { version = "0.1.0", path = "lib/zrgb4_mpeg2" }
+zyuv4_mpeg2 = { version = "0.1.0", path = "lib/zyuv4_mpeg2" }
+rand = "*"
+
+# See more keys and their definitions at 
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
